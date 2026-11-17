@@ -1,9 +1,10 @@
 # Proxecto DAM — folla individual de tribunal
 
-**Modelo breve en branco · repo-proy. Non introduce criterios novos.**
-Empregar coa [rúbrica completa](../rubrica.md) e o informe previo do repositorio.
-A copia cuberta é privada e entrégase á persoa responsable do módulo.
-O arquivo definitivo é dixital; o papel, se se utiliza, é apoio temporal.
+**Rexistro individual · repo-proy**
+
+Usar coa [rúbrica](../rubrica.md) e o informe previo, sen criterios adicionais.
+Entregar a copia cuberta á persoa responsable do módulo para o arquivo
+dixital privado. O papel é só apoio temporal.
 
 Código de proxecto: __________ Data/franxa: __________
 

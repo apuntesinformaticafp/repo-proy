@@ -2,22 +2,15 @@
 
 **Curso 2026–2027 · repo-proy**
 
-> **Edición de consulta · 17/11/2026.** Esta rúbrica acompaña a programación
-> que se presenta para aprobación e a consulta anticipada do alumnado.
-> Véxase o [estado da documentación](README.md#estado-documentacion).
+Única rúbrica para alumnado e profesorado. Os formatos e límites figuran
+na [guía](guia.md) e os criterios oficiais, no
+[anexo da programación](programacion.md#anexo-curricular).
 
-Esta é a única rúbrica para alumnado e profesorado. A folla individual só
-rexistrará evidencias, puntuacións e xustificacións; non engadirá requisitos.
-Os formatos e límites figuran na [guía](guia.md); o currículo e a asignación
-principal de criterios, no [anexo curricular da programación](programacion.md#anexo-curricular).
-
-A [folla de consolidación en branco](tribunal/hoja-consolidacion.md) permite rexistrar a
-aplicación desta rúbrica. Non é unha rúbrica privada nin un instrumento con
-requisitos adicionais.
-
-O [fluxo de traballo da guía](guia.md#fluxo-de-traballo) distingue o informe previo do
-repositorio, de ata 6 puntos, da valoración final posterior á sesión.
-A [folla individual do tribunal](tribunal/hoja-individual.md) recolle as valoracións individuais.
+A [folla individual](tribunal/hoja-individual.md) e a
+[folla de consolidación](tribunal/hoja-consolidacion.md) rexistran evidencias,
+puntos e xustificacións, sen requisitos adicionais. O
+[fluxo de traballo](guia.md#fluxo-de-traballo) distingue o informe previo
+do repositorio, de ata 6 puntos, da valoración final.
 
 As rutas das evidencias (`docs/`, `proyecto/README.md`, `proyecto/src/`,
 `proyecto/tests/` e `proyecto/datos/`) son relativas á raíz do repositorio.
@@ -188,10 +181,9 @@ o número de copias.
 Os nervios ou necesitar aclaración dunha pregunta non implican insuficiencia.
 Sen exposición e respostas, cero en P2; P1 e os demais bloques mantéñense.
 
-Esta regra de puntuación non converte a exposición nunha actividade optativa:
-está prevista para todo o alumnado polo currículo. O tratamento das ausencias
-da proposta require a validación docente indicada na programación e a
-aplicación do procedemento do centro.
+A exposición está prevista para todo o alumnado polo currículo. Esta regra
+de puntuación non a converte en optativa: as incidencias de participación
+tramítanse polo procedemento do centro, segundo a programación.
 
 ## 4. Demo — 2 puntos
 

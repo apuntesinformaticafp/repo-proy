@@ -1,21 +1,18 @@
 # Folla de consolidación de Proxecto DAM
 
-**Modelo público en branco · repo-proy · Curso 2026–2027**
+**Rexistro consolidado · repo-proy · Curso 2026–2027**
 
-Utiliza exclusivamente a [rúbrica pública](../rubrica.md). Non engade criterios,
-pesos nin mínimos. A plantilla pode publicarse; a copia cuberta é un rexistro
-privado docente e non se incorpora ao repositorio público nin ao do estudante.
-Non completar a plantilla mestra.
+Crear unha copia deste modelo e aplicar a [rúbrica](../rubrica.md), sen
+criterios nin pesos adicionais. A copia cuberta é privada: non se incorpora
+ao repositorio público nin ao do estudante.
 
-O [fluxo de traballo da guía](../guia.md#fluxo-de-traballo) prevé unha
-[folla individual por docente](hoja-individual.md) e consolidación posterior nunha
-folla de cálculo privada. Consérvanse os rexistros
-individuais e as correccións xustificadas. Esta folla completa é o rexistro
-consolidado, non unha valoración docente adicional que se sume ás demais.
+Reunir as [follas individuais](hoja-individual.md), conservar as correccións
+xustificadas e consolidar as puntuacións na folla de cálculo privada.
+Este rexistro non é unha valoración adicional. O
+[fluxo da guía](../guia.md#fluxo-de-traballo) explica o procedemento.
 
-O arquivo definitivo é dixital. As follas en papel, se se utilizan, son apoio
-temporal. A validación segue o procedemento institucional aplicable;
-non se establece unha obriga de arquivo permanente en papel.
+O arquivo é dixital e privado; o papel é apoio temporal. A validación
+segue o procedemento institucional, sen obriga de arquivo permanente en papel.
 
 ## 1. Referencia da avaliación
 
@@ -49,9 +46,9 @@ corresponda a ausencia de evidencia avaliable segundo a rúbrica.
 
 ## 3. Proposta automatizada do repositorio
 
-Esta táboa é opcional: mentres non exista unha ferramenta validada, os
-indicadores revísanse manualmente coa mesma rúbrica. Non se penaliza o
-alumnado por ausencia ou fallo da ferramenta.
+Usar esta táboa se hai unha proposta automatizada validada. Noutro caso,
+revisar manualmente coa mesma rúbrica. A ausencia ou o fallo da ferramenta
+non penaliza o alumnado.
 
 | Indicador                                       | Máximo | Nivel proposto | Puntos propostos | Evidencia localizable e xustificación | Límites / pendente de revisión |
 | ----------------------------------------------- | -----: | -------------- | ---------------- | ------------------------------------- | ------------------------------ |

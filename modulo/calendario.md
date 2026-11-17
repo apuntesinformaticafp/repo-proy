@@ -4,14 +4,12 @@
 
 **Data prevista: xoves 17 de decembro de 2026.**
 Franxas de inicio: **16:30, 17:30 e 18:30**, suxeitas á confirmación da
-convocatoria. Non son tres entregas nin tres sesións para cada estudante:
-a cada proxecto asígnaselle unha franxa.
+convocatoria. Cada proxecto ten unha única franxa asignada.
 
 A **convocatoria na aula virtual** comunica a confirmación da data e das horas,
 a asignación individual, a aula e o prazo de entrega da versión
-`proy-entrega-v1`. O alumnado atenderá esa convocatoria; as franxas deste
-documento non substitúen a comunicación individual nin fixan por si mesmas
-un prazo de entrega.
+`proy-entrega-v1`. As franxas deste documento non fixan un prazo de entrega
+nin substitúen a convocatoria individual.
 
 Non se publican nomes, códigos de alumnado nin asignacións persoais neste
 repositorio público.
@@ -24,9 +22,8 @@ repositorio público.
 | Exposición **incluíndo a demo**                    | Ata 15 minutos en total |
 | Preguntas do tribunal                              |          Ata 10 minutos |
 
-A demo distínguese na avaliación, pero **non engade cinco minutos aos quince
-da exposición**. O alumnado distribúe ese tempo entre a explicación e a
-demostración. A lectura inicial non consome tempo de exposición.
+A exposición e a demo comparten os quince minutos, aínda que teñan
+puntuacións diferentes. A lectura inicial queda fóra dese tempo.
 
 | Inicio da franxa | Lectura     | Exposición e demo | Preguntas |
 | ---------------- | ----------- | ----------------- | --------- |
@@ -42,8 +39,8 @@ non amplía o tempo de presentación do alumnado.
 
 As catro revisións formais —alcance, deseño e planificación, seguimento da
 execución e revisión final e MVP— prográmanse coa titoría segundo o progreso
-do proxecto e rexístranse no repositorio. Non teñen as tres horas da
-convocatoria como datas de entrega.
+do proxecto e rexístranse no repositorio. As horas de presentación non
+son prazos de entrega das revisións.
 
 A entrega ao tribunal identifica unha versión estable e a síntese en PDF.
 Debe realizarse no prazo comunicado na convocatoria para permitir a

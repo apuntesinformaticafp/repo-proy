@@ -2,11 +2,6 @@
 
 Plantilla para o proxecto individual de DAM, curso 2026–2027.
 
-> **Edición de consulta · 17/11/2026.** Documentación para aprobación do equipo
-> docente e consulta anticipada do alumnado. Non acredita unha aprobación
-> xa adoptada. O [índice do módulo](modulo/README.md#estado-documentacion)
-> explica o alcance desta edición.
-
 ## Tres áreas de traballo
 
 | Área                              | Contido                                                       |

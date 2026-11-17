@@ -1,28 +1,25 @@
-# Guía da plantilla de Proxecto
+# Guía do proxecto
 
 **Curso 2026–2027 · repo-proy**
 
-Este repositorio público reúne a plantilla e os materiais comúns. A programación,
-a rúbrica e as instrucións non conteñen identidades persoais nin valoracións
-individuais. As entregas do alumnado serán privadas.
+Usa este repositorio como base do teu proxecto. `modulo/` reúne as regras
+comúns; ti completas a documentación en `docs/` e a implementación en
+`proyecto/`. A túa copia e a entrega son privadas.
 
 ## 1. Comezar cunha copia privada
 
-1. Crea unha copia **privada e independente** da plantilla, non un fork público.
-   Se se habilita a función de plantilla na plataforma, utilízaa escollendo
-   visibilidade privada.
-2. Engade a persoa titora como colaboradora e habilita o acceso ao profesorado
-   do tribunal que participe na revisión. Os identificadores de acceso
-   comunicaranse pola canle institucional, non se incorporan á plantilla.
+1. En GitHub, usa **Use this template → Create a new repository** e escolle
+   **Private**. A copia debe ser independente, non un fork público.
+2. Engade a persoa titora como colaboradora e o profesorado do tribunal que
+   solicite acceso. Os identificadores comunícanse pola canle institucional;
+   non os escribas nos documentos.
 3. Clona a túa copia privada no equipo de traballo.
-4. Revisa os arquivos herdados antes do primeiro envío. Se fas a copia manual,
-   comproba con `git remote -v` que o destino de subida é a túa copia privada,
-   non o repositorio público docente.
-5. Completa `proyecto/README.md` e os apartados de documentación. Non modifiques a
-   programación nin a rúbrica para redefinir as condicións da entrega.
+4. Comproba con `git remote -v` que as subidas van á túa copia privada,
+   especialmente se a creaches manualmente.
+5. Completa `proyecto/README.md` e os apartados de `docs/`. Non cambies os
+   materiais de `modulo/` para redefinir as condicións da entrega.
 
-Non publiques un repositorio de estudante para facilitar a avaliación. Tampouco
-é necesario publicar a aplicación en Internet.
+Non é necesario publicar o repositorio nin despregar a aplicación en Internet.
 
 ## 2. Estrutura
 
@@ -57,71 +54,58 @@ proyecto/
 .gitignore               Saídas, datos locais, contornos e segredos excluídos
 ```
 
-Os `.gitkeep` só conservan directorios baleiros; poden retirarse ao engadir
-contido. Poderá adaptarse a estrutura ás convencións dunha tecnoloxía
-se se explica en `proyecto/README.md`. Non se penaliza por si mesma outra disposición
-equivalente e comprensible.
+Retira os `.gitkeep` cando engadas contido. Podes adaptar a estrutura á
+tecnoloxía elixida se o explicas en `proyecto/README.md`: unha disposición
+equivalente e comprensible non se penaliza.
 
-`modulo/` contén materiais docentes comúns e modelos en branco:
-non computan no límite de palabras, igual que o README raíz. As rutas
-`docs/`, `proyecto/src/`, `proyecto/tests/`, `proyecto/datos/` e
-`proyecto/README.md` son relativas á raíz do repositorio.
-Os comandos técnicos deben indicar o seu directorio de execución.
-As copias do estudante non substitúen a versión docente aplicable; a entrega
-debe identificar tamén a versión da plantilla ou das regras recibidas.
+O README raíz e `modulo/` non computan no límite de palabras. As rutas desta
+guía parten da raíz do repositorio; cada comando técnico debe indicar o
+directorio desde o que se executa. Identifica na entrega a versión dos
+materiais docentes aplicada: a túa copia non substitúe as regras comúns.
 
 ## 3. Documentación curta e visual
 
-- Máximo **1.500 palabras** entre `proyecto/README.md` e os oito apartados de `docs/`,
-  cos límites parciais anteriores.
-- A síntese é independente: máximo dúas páxinas, sen engadir unha memoria nova.
+- Máximo **1.500 palabras** entre `proyecto/README.md` e os oito apartados
+  de `docs/`, cos límites do esquema anterior.
+- A síntese ten un máximo de dúas páxinas e non suma a esas 1.500 palabras.
 - Markdown para textos; JPG para fotografías e capturas; SVG para diagramas
   e infografías. Os diagramas Mermaid conservarán a fonte editable, nun
   bloque Markdown ou nun arquivo `.mmd`. Non se esixe SVG duplicado se se
   visualizan correctamente.
-- As indicacións e preguntas herdadas da plantilla non computan; retíraas
-  cando completes o apartado.
-- Os arquivos de `docs/` inclúen preguntas orientadoras en comentarios
-  Markdown: consúltaas no editor ou na vista de código do arquivo, xa que
-  non aparecen na vista renderizada. Non forman parte da resposta final.
+- As preguntas orientadoras de `docs/` están en comentarios Markdown.
+  Consúltaas no editor ou na vista de código e retíraas ao completar o
+  apartado. As instrucións herdadas non computan.
 - O texto de táboas computa. Imaxes, diagramas, código, datos ficticios e
   comandos executables non computan. Non se usará prosa incrustada neles
   nin anexos para eludir os límites.
-- A documentación debe remitir ás evidencias, non reproducir probas,
-  rexistros ou explicacións enteiras.
-- As probas e os rexistros técnicos poden vivir en arquivos apropiados;
-  non son unha memoria narrativa adicional.
+- Enlaza as probas e os rexistros técnicos desde a documentación, sen
+  reproducilos nin convertelos nunha memoria adicional.
 - Un exceso de extensión sinalarase para corrección, sen desconto automático.
   A comunicación identifica a corrección necesaria e o prazo aplicable,
   conservando a referencia á entrega orixinal.
 
 ## 4. Construír unha versión concreta
 
-O proxecto debe explicar como obter unha aplicación executable desde o código
-da versión entregada:
+Explica en `proyecto/README.md` como executar a versión entregada:
 
-1. Identificar a etiqueta ou commit que se vai avaliar.
-2. Preparar as ferramentas e dependencias, con versións identificadas e
-   ficheiros de bloqueo cando os proporcione o ecosistema.
-3. Compilar ou preparar o executable, paquete ou servizo. Nunha aplicación
-   interpretada, preparar o contorno e arrancar esa versión é o equivalente:
-   non se obriga a fabricar un binario.
-4. Preparar o almacén e cargar datos ficticios.
-5. Executar o percorrido esencial, comprobar o almacenamento e reiniciar
-   a aplicación para comprobar a persistencia sen borrar os datos.
+1. Identifica a etiqueta ou commit.
+2. Prepara ferramentas e dependencias coas súas versións e os ficheiros de
+   bloqueo dispoñibles no ecosistema.
+3. Compila ou prepara a aplicación. Se é interpretada, chega con preparar
+   o contorno e arrancar esa versión: non se obriga a crear un binario.
+4. Prepara o almacén e carga datos ficticios.
+5. Executa o percorrido esencial e reinicia a aplicación sen borrar os datos
+   para comprobar a persistencia.
 
-Os comandos concretos elíxeos cada proxecto. Non se prescribe Docker, unha
-linguaxe, un framework, un provedor nin unha integración continua.
+Escolle as ferramentas axeitadas ao alcance; non se prescribe linguaxe,
+framework, provedor, Docker nin integración continua.
 
-Durante a demo mostrarase a construción ou preparación da versión avaliada
-e a súa execución. A descarga inicial de dependencias pode prepararse antes
-para axustarse ao tempo dispoñible; o proceso debe declaralo, non ocultalo.
-Non se esixe compilar un sistema completo desde cero nin reproducibilidade
-binaria bit a bit.
+Na demo mostra a preparación e a execución desa versión. Podes descargar
+dependencias antes, indicándoo. Non se esixe reinstalar todo o contorno
+nin obter binarios idénticos bit a bit.
 
-Se a demo inclúe un despregamento, identificarase a versión despregada e
-como se obtén desde o código. Pode ser local. Non é unha bonificación por
-utilizar infraestrutura comercial.
+Se hai despregamento, identifica a versión e a súa relación co código.
+Pode ser local; usar infraestrutura comercial non dá puntos adicionais.
 
 ## 5. Non versionar binarios nin datos de execución
 
@@ -131,76 +115,45 @@ utilizar infraestrutura comercial.
   de construción, migracións e sementes de datos ficticios necesarios.
 - Os JPG e SVG de documentación e o PDF da síntese son excepcións
   documentais, non artefactos executables.
-- As saídas locais de `proyecto/bin/`, `proyecto/build/`, `proyecto/dist/`
-  e equivalentes quedarán
-  ignoradas. Adapta `.gitignore` sen excluír fontes nin probas necesarias.
+- Ignora `proyecto/bin/`, `proyecto/build/`, `proyecto/dist/` e outras saídas
+  de construción. Adapta `.gitignore` sen excluír fontes nin probas.
 - A persistencia local poderá ir en `proyecto/datos/local/`, ignorado. Os datos
   iniciais deben poder rexenerarse desde os arquivos versionados.
 
 ## 6. Privacidade e seguridade
 
-A documentación entregada e a pública non incluirán nomes persoais, correos,
-teléfonos, expedientes, sinaturas, credenciais, rutas do equipo con nomes de
-usuario nin información empresarial confidencial. As imaxes e os diagramas
-deben cumprir a mesma regra; revisa tamén metadatos e saídas de consola.
+Non inclúas nomes persoais, correos, teléfonos, expedientes, sinaturas,
+credenciais, rutas persoais nin información empresarial confidencial.
+Revisa tamén imaxes, diagramas, metadatos e saídas de consola.
 
-Usa un código de proxecto non identificativo se necesitas unha referencia.
-Non copies listaxes de colaboradores aos documentos. Os permisos de acceso
-e os rexistros da plataforma son distintos do contido documental; un
-repositorio privado pode conter metadatos de autoría de Git, polo que non
-se debe presentar como anónimo nin facelo público.
+Usa un código de proxecto non identificativo. Non copies as listaxes de
+colaboradores aos documentos. Un repositorio privado pode conservar
+metadatos de autoría de Git: non é anónimo nin debe facerse público.
 
-Os exemplos de configuración só conterán valores ficticios. Se se filtra un
-segredo, comunícao e revógao: borralo do último arquivo non o elimina do
-historial.
+Nos exemplos de configuración usa valores ficticios. Se filtras un segredo,
+comunícao e revógao: borralo do último arquivo non o elimina do historial.
 
 ## 7. Entregar e defender
 
-O [fluxo de traballo](#fluxo-de-traballo) explica as revisións e a sesión.
-As revisións usan etiquetas `proy-revision-01`, `proy-revision-02`…;
-a entrega, `proy-entrega-v1`. Non movas nin sobrescribas etiquetas.
+Antes da entrega:
 
-Haberá catro revisións formais coa titoría: **alcance; deseño e planificación;
-seguimento da execución; revisión final e MVP**. Non son catro notas nin
-un límite ás consultas. A primeira usa a ficha de `docs/02-alcance.md`.
-Para unha segunda versión da mesma revisión pode usarse o sufixo `-v2`,
-sen substituír a etiqueta inicial.
-
-- Identifica unha versión estable mediante etiqueta ou commit e comunícaa
-  pola aula virtual, no prazo indicado na convocatoria.
+- Autoavalía as evidencias coa [rúbrica](rubrica.md).
+- Comunica pola aula virtual a versión `proy-entrega-v1`, no prazo da convocatoria.
 - Exporta `docs/sintese.md` a `docs/sintese.pdf`, comproba o máximo de dúas
-  páxinas e entrega esa mesma versión impresa. É o único documento impreso.
-- Prepara exposición e demo dentro dun máximo conxunto de 15 minutos,
-  seguidas de ata 10 minutos de preguntas.
-- Os primeiros cinco minutos da franxa resérvanse á lectura da síntese
-  impresa polo tribunal, antes da exposición. A convocatoria indica o número
-  de copias. Consulta o [calendario](calendario.md).
-- Consulta a [rúbrica](rubrica.md) para autoavaliar as evidencias.
+  páxinas e leva esa mesma versión impresa, co número de copias indicado.
+- Prepara exposición e demo nun máximo conxunto de 15 minutos e ata
+  10 minutos de preguntas. A lectura inicial da síntese ten cinco minutos
+  propios. Consulta o [calendario](calendario.md).
 
-A plantilla non inclúe notas, informes individuais nin credenciais docentes.
-A revisión pode apoiarse en ferramentas automatizadas validadas, con
-comprobación docente e revisión manual dos aspectos non comprobados.
-
-A [folla de consolidación](tribunal/hoja-consolidacion.md) é un modelo público en branco:
-o alumnado pode coñecer como se rexistrará a valoración. As copias cubertas,
-as propostas automatizadas e as valoracións do tribunal gardaranse nun
-espazo docente privado fóra do repositorio público e da entrega do estudante.
-
-A [folla individual do tribunal](tribunal/hoja-individual.md) é a versión de recollida
-individual para papel. Non é a síntese do alumnado nin debe imprimila este.
-O arquivo docente definitivo é dixital; o papel é só apoio temporal.
-
-Puntúan tres membros do tribunal; a persoa titora está na presentación,
-pero non puntúa. A nota procede da media dos tres por indicador e do
-redondeo só do total ao enteiro máis próximo, co medio punto cara arriba,
-segundo a rúbrica.
+O [fluxo seguinte](#fluxo-de-traballo) explica as revisións, a presentación
+e a corrección. As follas do tribunal son modelos en branco: non debes
+imprimilas nin gardar valoracións docentes na túa entrega.
 
 <a id="fluxo-de-traballo"></a>
 
 ## 8. Fluxo de traballo, seguimento e corrección
 
-O diagrama resume o proceso. Os apartados seguintes concretan as actuacións
-sen engadir indicadores nin puntuacións á rúbrica.
+O diagrama resume o proceso; a rúbrica define a puntuación.
 
 ```mermaid
 flowchart TD
@@ -265,8 +218,8 @@ da revisión e as melloras indicadas quedan rexistrados.
    nin demo.
 5. Prepáranse follas de valoración en branco para o profesorado.
 
-Os informes individuais e as correspondencias de códigos son privados,
-non se incorporan ao repositorio público nin se envían automaticamente.
+Os informes individuais e as correspondencias de códigos son privados.
+Non se incorporan ao repositorio público nin se envían automaticamente.
 
 ### 8.3. Sesión de presentación
 
@@ -275,20 +228,14 @@ dos tempos. A convocatoria na aula virtual confirma data e horas e comunica
 a asignación individual, a aula e o prazo de entrega. Os datos persoais
 non se incorporan ao calendario público.
 
-O alumnado trae a síntese de máximo dúas páxinas impresa e entrégaa ao
-tribunal ao inicio. É a mesma versión do PDF incluído na entrega.
+O tribunal dedica os primeiros **cinco minutos** á síntese impresa, a mesma
+versión do PDF entregado. P1 valora a síntese, non o soporte de papel.
+A convocatoria indica o número de copias; non se esixen impresións
+adicionais sen comunicalo nin se pide imprimir o informe docente.
 
-Resérvanse os **primeiros cinco minutos** á súa lectura. Esta precede a
-exposición e non consume o seu tempo. P1 valora a síntese, non o soporte
-de papel. A convocatoria indica o número de copias; non se presume unha
-copia por docente nin unha obriga de impresión adicional sen comunicala.
-Non se pide ao alumnado imprimir o informe de corrección.
-
-A exposición e a demo comparten un máximo de **15 minutos**, seguidos de
-**ata 10 minutos de preguntas**. Exposición e demo teñen indicadores
-diferentes, pero non quendas de tempo adicionais. A lectura inicial queda
-fóra deses quince minutos. As franxas dunha hora non implican unha hora de
-exposición por proxecto.
+Despois realízanse **ata 15 minutos de exposición e demo** e **ata 10 de
+preguntas**. Exposición e demo puntúan por separado, pero comparten tempo.
+As franxas dunha hora non amplían estes límites.
 
 O profesorado utiliza a [folla individual do tribunal](tribunal/hoja-individual.md)
 para refrendar ou propoñer correccións á valoración do repositorio e rexistrar
@@ -297,46 +244,24 @@ permite consolidar e fundamentar a decisión.
 
 ### 8.4. Consolidación e arquivo
 
-As puntuacións recóllense nas follas individuais e consolídanse nunha folla
-de cálculo privada. Os modelos Markdown poden exportarse a PDF.
-O **arquivo definitivo é dixital**: consérvanse os rexistros individuais,
-a consolidación e o informe final nun espazo docente restrinxido.
+Cada un dos **tres membros puntuadores**, T1, T2 e T3, entrega a súa folla.
+A titoría coordina a sesión e consolida os resultados, pero **non puntúa**.
+O informe automatizado tampouco conta como outra valoración.
 
-O papel, se se utiliza durante a sesión, é apoio temporal. Non se esixe
-arquivo permanente en papel. A validación dos tres membros realízase polo
-procedemento institucional aplicable e non se substitúe pola mera existencia
-dun ficheiro editable. Este rexistro non substitúe a acta oficial.
+Calcúlase a media dos tres por cada un dos nove indicadores, sen convertela
+a un nivel discreto. Non se redondean medias nin subtotais: só o total,
+ao enteiro máis próximo co medio punto cara arriba. A
+[rúbrica](rubrica.md) detalla o cálculo e o aprobado, sen mínimos por bloque.
+Os 43 CA serven para comprobar cobertura, non son 43 notas adicionais.
+Se falta unha valoración, resólvese antes de pechar a nota: non vale cero
+nin se substitúe pola do tutor ou a automatizada.
 
-Cada docente entrega a súa folla á persoa responsable. Consérvanse as
-valoracións orixinais e xustifícanse os cambios.
-
-O tribunal puntuador está formado por **tres membros**, identificados nos
-rexistros como T1, T2 e T3. A persoa titora está na presentación, coordina
-o proceso e achega o seguimento e o informe previo, pero **non puntúa nin
-entra na media**. A proposta automatizada tampouco conta como cuarta valoración.
-
-Cada membro revisa e puntúa os nove indicadores coa mesma escala. Para cada
-indicador i, calcúlase a **media aritmética das tres puntuacións**:
-
-`media_i = (puntos_T1_i + puntos_T2_i + puntos_T3_i) / 3`
-
-Non se crean 43 notas novas por CA: manteñen a súa comprobación de cobertura.
-Non se redondean as medias nin se obriga a que encaixen nun nivel discreto
-da escala. Unha casilla non revisada non vale cero; se falta unha das tres
-valoracións, resólvese a incidencia antes de pechar a nota, sen substituíla
-pola do tutor ou pola automatizada.
-
-O total S é a suma das nove medias, conservando precisión ata o final.
-A cualificación numérica oficial obtense redondeando **ao enteiro máis
-próximo, co medio punto cara arriba**, non mediante `ceil` nin redondeo
-bancario. Para o rango numérico 1–10:
-
-`nota = max(1, floor(S + 0.5))`
-
-Así, 4,49 → 4; 4,50 → 5; 7,49 → 7; 7,50 → 8; 0 → 1.
-O aprobado determínase pola **nota oficial igual ou superior a 5**, sen
-mínimos por bloque. As situacións administrativas sen cualificación numérica
-tramítanse polo procedemento do centro.
+As puntuacións consolídanse nunha folla de cálculo privada. Consérvanse as
+follas orixinais, os cambios xustificados e o informe final nun **arquivo
+dixital privado**, fóra do repositorio público e da entrega do estudante.
+Os modelos Markdown poden exportarse a PDF; o papel é só apoio temporal.
+Os tres membros validan polo procedemento institucional: un ficheiro
+editable non substitúe esa validación nin a acta oficial.
 
 ### 8.5. Informe final e mellora
 

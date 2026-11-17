@@ -2,13 +2,8 @@
 
 **Curso 2026–2027 · repo-proy**
 
-> **Edición de consulta · 17/11/2026.** Para aprobación do equipo docente e
-> consulta anticipada do alumnado, conforme ao
-> [estado da documentación](README.md#estado-documentacion).
-
-A programación, o anexo curricular, a rúbrica e as instrucións mantéñense
-en Markdown. Esta versión pública contén os materiais comúns, sen datos
-persoais nin valoracións individuais.
+Programación e anexo curricular do módulo. Os materiais públicos mantéñense
+en Markdown, sen datos persoais nin valoracións individuais.
 
 ## Identificación
 
@@ -54,9 +49,8 @@ de aplicacións multiplataforma, do plan LOE en extinción, na oferta modular
 de persoas adultas a distancia. Non substitúe o seu currículo polo do novo
 Proxecto intermodular.
 
-O módulo ten unha duración curricular de **26 horas**,
-que dimensiona a actividade formativa, sen equivalencias de dedicación
-calculadas a partir de ECTS. O alcance debe ser viable nese marco.
+O módulo ten **26 horas** de duración curricular. O alcance do proxecto
+debe ser viable nese marco, sen calcular dedicacións a partir dos ECTS.
 
 Marco normativo:
 
@@ -93,18 +87,17 @@ un suspenso automático.
 A exposición está prevista para todo o alumnado e é parte esencial do
 proceso de avaliación segundo o anexo I, 1.11.2, do Decreto 105/2011.
 A ausencia de mínimos de puntuación non dispensa de presentar e defender
-o proxecto; as incidencias de participación tramítanse polo procedemento
-do centro. O tratamento das ausencias desta proposta sométese á validación
-do equipo docente, sen introducir aquí unha nova condición de suspenso.
+o proxecto. As incidencias de participación tramítanse polo procedemento
+do centro, coa regra de cualificación do apartado 7 e sen engadir unha
+condición de suspenso automático.
 
 <a id="apartado-3"></a>
 
 ## 3. Resultados de aprendizaxe, criterios e instrumentos de avaliación
 
-Os cinco RA e os 43 CA figuran no [anexo curricular](#anexo-curricular)
-ao final deste documento, xunto coa súa asignación principal aos indicadores.
-O anexo é parte integrante da programación. Esta distribúese xunto coa
-rúbrica e a guía.
+O [anexo curricular](#anexo-curricular) forma parte desta programación:
+recolle os cinco RA, os 43 CA e a súa asignación aos indicadores da rúbrica.
+Programación, rúbrica e guía distribúense conxuntamente.
 
 A [rúbrica pública](rubrica.md) é a única referencia de valoración para
 alumnado e profesorado. Non haberá criterios, mínimos nin descontos ocultos.
@@ -125,10 +118,9 @@ non comprobados por esas ferramentas revísanse manualmente. A persoa
 responsable revisa o informe e o tribunal refréndao ou corríxeo con
 xustificación. A automatización non decide a cualificación.
 
-As valoracións rexistraranse na [folla de consolidación](tribunal/hoja-consolidacion.md),
-que utiliza os mesmos indicadores, pesos, escala e criterios. A plantilla
-en branco é pública; os rexistros cubertos serán privados e non se subirán
-ao repositorio do estudante nin ao repositorio público.
+As valoracións rexístranse na [folla de consolidación](tribunal/hoja-consolidacion.md),
+cos mesmos indicadores, pesos e escala. O modelo é público; os rexistros
+cubertos son privados e quedan fóra do repositorio do estudante e do público.
 
 O [fluxo de traballo da guía](guia.md#fluxo-de-traballo) distingue seguimento continuo,
 informe previo do repositorio, sesión de presentación e informe final.
@@ -149,23 +141,19 @@ informe previo do repositorio, sesión de presentación e informe final.
 As revisións organízanse coa titoría e a composición do tribunal comunícase
 polas canles institucionais, sen incorporar identidades a esta versión pública.
 
-A organización dos tres membros puntuadores é unha concreción desta edición
-que se somete ao equipo docente; non substitúe a participación da totalidade
-do equipo nas actividades de programación, seguimento e avaliación prevista
-no punto decimoquinto.3.a da Resolución do 3 de xullo de 2026, aplicable por
-remisión da disposición transitoria terceira. A persoa responsable do módulo
-asina as actas finais de acordo coa valoración do equipo docente, conforme
-ao punto decimoquinto.9; non puntuar na media non elimina esa responsabilidade.
+A organización da puntuación en tres membros non substitúe a participación
+da totalidade do equipo docente na programación, no seguimento e na avaliación
+prevista no punto decimoquinto.3.a da Resolución do 3 de xullo de 2026,
+aplicable pola disposición transitoria terceira. A persoa responsable do
+módulo asina as actas finais conforme á valoración do equipo docente
+(punto decimoquinto.9), aínda que non puntúe na media.
 
-O seguimento continuo terá como referencia principal a titoría. As versións
-para revisión identificaranse con etiquetas `proy-revision-01`,
-`proy-revision-02`…; a entrega con `proy-entrega-v1` e a recuperación,
-cando proceda, con `proy-recuperacion-v1`. Non se moven nin sobrescriben.
-Planifícanse catro revisións formais: **alcance; deseño e planificación;
-seguimento da execución; revisión final e MVP**. O [fluxo da guía](guia.md#fluxo-de-traballo)
-concreta cada fito. A [ficha de alcance](../docs/02-alcance.md) apoia a primeira revisión.
-Non xeran notas adicionais nin limitan as consultas breves; a súa cantidade
-non introduce mínimos nin penalizacións automáticas.
+O seguimento coa titoría ten catro revisións: **alcance; deseño e planificación;
+seguimento da execución; revisión final e MVP**. A guía concreta os
+[fitos e as etiquetas de versión](guia.md#fluxo-de-traballo), que non se moven
+nin sobrescriben. A [ficha de alcance](../docs/02-alcance.md) apoia a primeira.
+As revisións non xeran notas adicionais, non limitan as consultas breves e
+non introducen mínimos nin penalizacións pola súa cantidade.
 
 O traballo e a avaliación serán individuais. A colaboración e as achegas
 externas identificaranse. O uso de IA admite apoio con transparencia,
@@ -312,8 +300,8 @@ consistencia das valoracións e incidencias de construción, entrega e demo.
 A revisión departamental e a memoria final incorporarán as melloras que
 procedan sen modificar retroactivamente as condicións publicadas.
 
-O seguimento departamental realizarase cunha frecuencia mínima mensual. Examinaranse
-tamén as discrepancias entre proposta automatizada e valoración docente e
+O seguimento departamental realizarase cunha frecuencia mínima mensual.
+Examinaranse as discrepancias entre proposta automatizada e valoración docente e
 a suficiencia das evidencias. As conclusións rexistraranse de forma agregada,
 sen datos persoais, e servirán para mellorar futuras edicións.
 

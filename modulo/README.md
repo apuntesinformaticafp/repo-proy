@@ -5,35 +5,13 @@ profesorado. [Volver ao inicio](../README.md).
 
 <a id="estado-documentacion"></a>
 
-## Estado e finalidade desta edición
+## Aplicación da documentación
 
-**Edición de consulta · 17/11/2026.** Esta documentación preséntase ao equipo
-docente para a súa aprobación e facilítase ao alumnado para coñecer con
-antelación o alcance, a organización e a avaliación propostos. A súa
-distribución non acredita unha aprobación xa adoptada.
-
-A versión aplicable e os cambios resultantes da revisión comunícanse pola
-aula virtual antes da súa aplicación. A convocatoria confirma as datas,
-a asignación individual, a aula e o prazo de entrega. Non se engaden
-esixencias retroactivas ao traballo xa realizado.
-
-### Aspectos que debe validar o equipo docente
-
-- A organización da valoración por tres membros, coa titoría sen puntuación,
-  debe articularse coa participación da totalidade do equipo docente na
-  programación, no seguimento e na avaliación prevista no punto decimoquinto.3.a
-  da [Resolución do 3 de xullo de 2026](https://www.xunta.gal/dog/Publicados/2026/20260713/AnuncioG0761-030726-0001_gl.html),
-  aplicable ao Proxecto LOE pola súa disposición transitoria terceira.
-- A exposición é parte esencial da avaliación e prevese para todo o alumnado
-  no [Decreto 105/2011, anexo I, 1.11.2](https://www.xunta.gal/dog/Publicados/2011/20110608/AnuncioC3F1-250511-2127_gl.html).
-  Cómpre validar o tratamento das ausencias recollido na proposta: a regra
-  sen mínimos por bloque non dispensa da realización das actuacións previstas.
-- O reparto 6 + 2 + 2, os niveis, a media dos tres puntuadores e o redondeo
-  do total son concrecións desta edición, non pesos prescritos polo currículo.
-  O redondeo permite que unha puntuación interna de 4,50 dea unha nota de 5.
-- As catro revisións, as condicións de entrega, a organización da presentación
-  e o procedemento de mellora e recuperación deben coñecerse e aplicarse
-  de maneira común. Os prazos concretos comunícanse na convocatoria.
+A aprobación docente rexístrase polo procedemento do centro; a publicación
+do repositorio non a acredita por si soa. A versión aplicable e as súas
+actualizacións comunícanse pola aula virtual, sen novas esixencias retroactivas.
+As datas, as asignacións e os prazos de entrega confírmanse na convocatoria,
+segundo o [calendario](calendario.md).
 
 ## Onde consultar cada cuestión
 
@@ -51,8 +29,7 @@ esixencias retroactivas ao traballo xa realizado.
 Para traballar no proxecto, consulta a [documentación en `docs/`](../docs/)
 e as [instrucións técnicas de `proyecto/`](../proyecto/README.md).
 
-Hai unha única rúbrica: a mesma guía o desenvolvemento, a autoavaliación
-e a corrección. `tribunal/` contén só modelos públicos en branco, non unha
-rúbrica adicional nin un arquivo de notas. Os rexistros cubertos e os
-informes individuais gárdanse fóra do repositorio público e da entrega do
-estudante, nun espazo docente privado.
+A mesma rúbrica guía o desenvolvemento, a autoavaliación e a corrección.
+`tribunal/` contén só modelos en branco. Os rexistros cubertos e os informes
+individuais gárdanse nun espazo docente privado, fóra deste repositorio e
+da entrega do estudante.
