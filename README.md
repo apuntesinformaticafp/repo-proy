@@ -7,6 +7,14 @@ Plantilla para o proxecto individual de DAM, curso 2026–2027.
 > xa adoptada. O [índice do módulo](modulo/README.md#estado-documentacion)
 > explica o alcance desta edición.
 
+## Tres áreas de traballo
+
+| Área                              | Contido                                                       |
+| --------------------------------- | ------------------------------------------------------------- |
+| [`docs/`](docs/)                  | Documentación do proxecto, síntese, imaxes e diagramas        |
+| [`modulo/`](modulo/README.md)     | Programación, rúbrica, guía, calendario e modelos do tribunal |
+| [`proyecto/`](proyecto/README.md) | Instrucións técnicas, código fonte, probas e datos ficticios  |
+
 ## Materiais comúns
 
 - [Índice do módulo](modulo/README.md).
@@ -18,37 +26,13 @@ Plantilla para o proxecto individual de DAM, curso 2026–2027.
 Crea unha **copia privada independente** e engade a titoría como colaboradora.
 Non subas entregas nin datos persoais ao repositorio público docente.
 
-`modulo/` contén as regras e os modelos comúns. `docs/`, `src/`, `tests/`
-e `datos/` son a base do teu proxecto.
+## Na túa copia privada
 
-## README da túa copia
+Mantén este README como entrada ás tres áreas. Completa `docs/` coa
+documentación e `proyecto/` coa implementación. As instrucións de preparación,
+construción, execución e comprobación escríbense en
+[`proyecto/README.md`](proyecto/README.md).
 
-Na copia privada, substitúe esta presentación común polo título e as
-instrucións reais do teu proxecto, seguindo os apartados inferiores.
-O texto propio do README terá un máximo de **250 palabras**; os comandos
-executables non computan. Non dupliques a documentación de `docs/`.
-
-## Versión e requisitos
-
-<!-- Identifica a versión entregada, as ferramentas e versións necesarias.
-Non inclúas nomes, correos, rutas persoais nin credenciais. -->
-
-## Preparación e construción
-
-<!-- Explica os comandos reais para instalar dependencias e construír ou
-preparar a aplicación desde o código fonte. Non inventes comandos:
-adapta esta sección á tecnoloxía elixida.
-Indica onde se xera a saída local, que non se versionará. -->
-
-## Datos e execución
-
-<!-- Indica como configurar valores locais sen segredos versionados,
-preparar o almacén con datos ficticios e iniciar a aplicación.
-Explica onde persisten os datos e como deter e reiniciar sen perdelos. -->
-
-## Comprobación
-
-<!-- Indica como executar as probas e completar o percorrido esencial.
-Enlaza docs/07-validacion.md e identifica as limitacións coñecidas.
-Se hai unha operación destrutiva de reinicio ou limpeza dos datos,
-identifícaa e sepáraa do arranque normal. -->
+O texto propio dese README técnico terá un máximo de **250 palabras**,
+incluídas no máximo global de **1.500** xunto cos oito apartados de `docs/`.
+Este índice e os materiais comúns de `modulo/` non computan.

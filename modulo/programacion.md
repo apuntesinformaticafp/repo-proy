@@ -190,8 +190,9 @@ As tarefas e preguntas orientadoras de cada apartado están nos arquivos
 concreta preparación, construción e comprobación dunha versión. As revisións
 non crean notas adicionais ás da rúbrica.
 
-As rutas de traballo `docs/`, `src/`, `tests/`, `datos/` e o README do
-proxecto son relativas á raíz do repositorio, non á carpeta `modulo/`.
+As rutas de traballo `docs/`, `proyecto/src/`, `proyecto/tests/`,
+`proyecto/datos/` e `proyecto/README.md` son relativas á raíz do repositorio,
+non á carpeta `modulo/`. O README raíz é o índice común das tres áreas.
 
 Non se premian funcionalidades accesorias, volume de código nin número de
 commits. Non se esixe inventar incidencias. Un cambio de alcance debe estar
@@ -221,7 +222,8 @@ do tribunal que participe e o solicite. A versión entregada identificarase
 mediante a etiqueta `proy-entrega-v1`, resolta a un commit concreto.
 
 A documentación, os formatos e os límites establécense na [guía](guia.md):
-1.500 palabras entre README e oito apartados, sen memoria extensa adicional.
+1.500 palabras entre `proyecto/README.md` e os oito apartados de `docs/`,
+sen memoria extensa adicional. O README raíz non computa nese límite.
 A síntese de ata dúas páxinas en PDF estará no repositorio e será o único
 documento do proxecto que o alumnado entrega impreso.
 
@@ -324,7 +326,7 @@ sen datos persoais, e servirán para mellorar futuras edicións.
 - Mantén a documentación breve e visual, cos límites indicados; identifica
   fontes e achegas externas e comproba o que entregas.
 - Prepara unha versión identificada que se poida construír ou arrancar
-  seguindo o README, con datos ficticios e persistencia real.
+  seguindo `proyecto/README.md`, con datos ficticios e persistencia real.
 - Consulta a mesma rúbrica que usará o tribunal e autoavalía as evidencias.
 - Resume o esencial no PDF de ata dúas páxinas e entrega esa versión impresa;
   non se esixe unha memoria extensa adicional.

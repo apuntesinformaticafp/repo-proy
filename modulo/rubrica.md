@@ -19,8 +19,8 @@ O [fluxo de traballo da guía](guia.md#fluxo-de-traballo) distingue o informe pr
 repositorio, de ata 6 puntos, da valoración final posterior á sesión.
 A [folla individual do tribunal](tribunal/hoja-individual.md) recolle as valoracións individuais.
 
-As rutas das evidencias (`docs/`, README, código, probas e datos) son relativas
-á raíz do repositorio do proxecto.
+As rutas das evidencias (`docs/`, `proyecto/README.md`, `proyecto/src/`,
+`proyecto/tests/` e `proyecto/datos/`) son relativas á raíz do repositorio.
 
 ## 1. Estrutura e escala
 
@@ -135,7 +135,7 @@ Non se puntúa o número de commits nin se esixe inventar incidencias.
 
 ### R6. Validación documentada e reproducibilidade — 1 punto
 
-**Evidencias:** README, `docs/07-validacion.md`, scripts, manifests, bloqueos,
+**Evidencias:** `proyecto/README.md`, `docs/07-validacion.md`, scripts, manifests, bloqueos,
 preparación dos datos, probas e rexistros.
 **CA principais:** CA4.1–CA4.2, CA4.5–CA4.7.
 

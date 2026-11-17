@@ -18,7 +18,7 @@ individuais. As entregas do alumnado serán privadas.
 4. Revisa os arquivos herdados antes do primeiro envío. Se fas a copia manual,
    comproba con `git remote -v` que o destino de subida é a túa copia privada,
    non o repositorio público docente.
-5. Completa o README e os apartados de documentación. Non modifiques a
+5. Completa `proyecto/README.md` e os apartados de documentación. Non modifiques a
    programación nin a rúbrica para redefinir as condicións da entrega.
 
 Non publiques un repositorio de estudante para facilitar a avaliación. Tampouco
@@ -27,7 +27,7 @@ Non publiques un repositorio de estudante para facilitar a avaliación. Tampouco
 ## 2. Estrutura
 
 ```text
-README.md                 Presentación e primeiros pasos; na copia, máximo 250 palabras
+README.md                 Entrada estable ás tres áreas
 modulo/
   README.md               Índice dos materiais comúns
   programacion.md         Programación co currículo como anexo
@@ -49,26 +49,30 @@ docs/
   sintese.md              Fonte do PDF de máximo dúas páxinas
   img/                   Fotografías/capturas JPG e gráficos SVG
   diagramas/             Fontes Mermaid cando non vaian no Markdown
-src/                     Código fonte
-tests/                   Probas
-datos/                   Sementes ficticias e preparación do almacén
+proyecto/
+  README.md               Instrucións técnicas: máximo 250 palabras
+  src/                    Código fonte
+  tests/                  Probas
+  datos/                  Sementes ficticias e preparación do almacén
 .gitignore               Saídas, datos locais, contornos e segredos excluídos
 ```
 
 Os `.gitkeep` só conservan directorios baleiros; poden retirarse ao engadir
 contido. Poderá adaptarse a estrutura ás convencións dunha tecnoloxía
-se se explica no README. Non se penaliza por si mesma outra disposición
+se se explica en `proyecto/README.md`. Non se penaliza por si mesma outra disposición
 equivalente e comprensible.
 
 `modulo/` contén materiais docentes comúns e modelos en branco:
-non computan no límite de palabras. As rutas de traballo `docs/`, `src/`,
-`tests/`, `datos/` e o README do proxecto son relativas á raíz do repositorio.
+non computan no límite de palabras, igual que o README raíz. As rutas
+`docs/`, `proyecto/src/`, `proyecto/tests/`, `proyecto/datos/` e
+`proyecto/README.md` son relativas á raíz do repositorio.
+Os comandos técnicos deben indicar o seu directorio de execución.
 As copias do estudante non substitúen a versión docente aplicable; a entrega
 debe identificar tamén a versión da plantilla ou das regras recibidas.
 
 ## 3. Documentación curta e visual
 
-- Máximo **1.500 palabras** entre o README e os oito apartados de `docs/`,
+- Máximo **1.500 palabras** entre `proyecto/README.md` e os oito apartados de `docs/`,
   cos límites parciais anteriores.
 - A síntese é independente: máximo dúas páxinas, sen engadir unha memoria nova.
 - Markdown para textos; JPG para fotografías e capturas; SVG para diagramas
@@ -127,9 +131,10 @@ utilizar infraestrutura comercial.
   de construción, migracións e sementes de datos ficticios necesarios.
 - Os JPG e SVG de documentación e o PDF da síntese son excepcións
   documentais, non artefactos executables.
-- As saídas locais de `bin/`, `build/`, `dist/` e equivalentes quedarán
+- As saídas locais de `proyecto/bin/`, `proyecto/build/`, `proyecto/dist/`
+  e equivalentes quedarán
   ignoradas. Adapta `.gitignore` sen excluír fontes nin probas necesarias.
-- A persistencia local poderá ir en `datos/local/`, ignorado. Os datos
+- A persistencia local poderá ir en `proyecto/datos/local/`, ignorado. Os datos
   iniciais deben poder rexenerarse desde os arquivos versionados.
 
 ## 6. Privacidade e seguridade
@@ -199,7 +204,7 @@ sen engadir indicadores nin puntuacións á rúbrica.
 
 ```mermaid
 flowchart TD
-    A["Copia privada e acceso docente"] --> R1["Revisión 1: alcance"]
+    A["Copia privada: docs, modulo e proyecto; acceso docente"] --> R1["Revisión 1: alcance"]
     R1 --> R2["Revisión 2: deseño e planificación"]
     R2 --> R3["Revisión 3: seguimento da execución"]
     R3 --> R4["Revisión 4: revisión final e MVP"]

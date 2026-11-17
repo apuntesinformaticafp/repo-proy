@@ -48,6 +48,9 @@ esixencias retroactivas ao traballo xa realizado.
 | Como rexistrará cada docente a súa valoración       | [Folla individual do tribunal](tribunal/hoja-individual.md)          |
 | Como se consolidan as tres valoracións              | [Folla de consolidación](tribunal/hoja-consolidacion.md)             |
 
+Para traballar no proxecto, consulta a [documentación en `docs/`](../docs/)
+e as [instrucións técnicas de `proyecto/`](../proyecto/README.md).
+
 Hai unha única rúbrica: a mesma guía o desenvolvemento, a autoavaliación
 e a corrección. `tribunal/` contén só modelos públicos en branco, non unha
 rúbrica adicional nin un arquivo de notas. Os rexistros cubertos e os
