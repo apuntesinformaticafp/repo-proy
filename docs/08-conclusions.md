@@ -1,6 +1,6 @@
 # Balance e seguintes pasos
 
-> **Instrucións · Máximo: 100 palabras**
+> **Instrucións · Extensión orientativa: 100 palabras**
 >
 > Revisa a entrega fronte ao problema inicial. Non é unha despedida formal:
 > é unha decisión sobre o resultado e sobre como continuarías.

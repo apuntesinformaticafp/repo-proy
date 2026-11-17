@@ -15,7 +15,8 @@
 > Identifica o proxecto cun título ou código non persoal e referencia a
 > versión entregada do repositorio e as evidencias relevantes. A síntese
 > ten puntuación propia en **P1**, pola súa claridade e selección do esencial,
-> sen repetir a nota técnica. Non suma ao límite de 1.500 palabras.
+> sen repetir a nota técnica. Queda fóra do máximo global de 3.000 palabras
+> da documentación e conserva o seu límite de dúas páxinas en PDF.
 >
 > Antes de exportar, retira estas instrucións. Garda o resultado como
 > `sintese.pdf`, comproba as dúas páxinas, a lectura, as referencias e a

@@ -1,6 +1,6 @@
 # Seguimento, decisións e cambios
 
-> **Instrucións · Máximo: 100 palabras**
+> **Instrucións · Extensión orientativa: 150 palabras**
 >
 > Actualiza o código, a documentación e o plan a medida que avanzas. O
 > seguimento é continuo e iterativo, non unha reconstrución ao final.

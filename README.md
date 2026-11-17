@@ -28,6 +28,7 @@ para completar a documentación e `proyecto/` para a implementación. As instruc
 construción, execución e comprobación escríbense en
 [`proyecto/README.md`](proyecto/README.md).
 
-O texto propio dese README técnico terá un máximo de **250 palabras**,
-incluídas no máximo global de **1.500** xunto cos oito apartados de `docs/`.
-Este índice, `docs/README.md` e os materiais comúns de `modulo/` non computan.
+Para o README técnico e os oito apartados de `docs/`, a referencia é de
+**2.000 palabras**, cun **máximo global de 3.000** e distribución libre
+entre apartados. O obxectivo é editar e conservar a información que achega
+valor, non encher espazo. Este índice, `docs/README.md` e `modulo/` non computan.

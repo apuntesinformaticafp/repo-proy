@@ -1,6 +1,6 @@
 # Planificación, execución e riscos
 
-> **Instrucións · Máximo: 150 palabras**
+> **Instrucións · Extensión orientativa: 200 palabras**
 >
 > Explica a túa estratexia de traballo: que abordarás primeiro, por que e
 > como saberás que podes pasar ao seguinte paso. O plan pode cambiar ao aprender

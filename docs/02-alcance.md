@@ -1,6 +1,6 @@
 # Obxectivos, alcance e viabilidade
 
-> **Instrucións · Máximo: 150 palabras**
+> **Instrucións · Extensión orientativa: 200 palabras**
 >
 > Distingue a idea xeral da primeira versión que vas rematar. O desenvolvemento
 > é iterativo: entrega algo concreto, compróbao e evoluciona se tes recursos,
@@ -13,7 +13,8 @@
 >
 > Usa esta ficha na primeira revisión coa titoría e actualízaa cando cambie
 > o proxecto. Non é unha entrega nin unha nota adicional. O texto propio
-> dos campos, incluído o rexistro da revisión, suma ao límite de 150 palabras.
+> dos campos, incluído o rexistro da revisión, suma ao máximo global;
+> as 200 palabras deste apartado son só unha orientación.
 > O contexto e as persoas destinatarias explícanse en `01-contexto.md`.
 >
 > **Exemplo de acción:** separa nunha lista o que demostrarás nesta entrega

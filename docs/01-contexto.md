@@ -1,6 +1,6 @@
 # Contexto, necesidade e alternativas
 
-> **Instrucións · Máximo: 150 palabras**
+> **Instrucións · Extensión orientativa: 200 palabras**
 >
 > Comeza polas persoas e polo problema, non pola tecnoloxía.
 >

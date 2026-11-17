@@ -210,8 +210,12 @@ do tribunal que participe e o solicite. A versión entregada identificarase
 mediante a etiqueta `proy-entrega-v1`, resolta a un commit concreto.
 
 A documentación, os formatos e os límites establécense na [guía](guia.md):
-1.500 palabras entre `proyecto/README.md` e os oito apartados de `docs/`,
-sen memoria extensa adicional. O README raíz non computa nese límite.
+**2.000 palabras como referencia orientativa e 3.000 como máximo global**
+entre `proyecto/README.md` e os oito apartados de `docs/`, sen máximos por
+apartado nin memoria extensa adicional. A extensión distribúese segundo
+o proxecto; búscase seleccionar e editar a información útil, non xerar volume
+nin omitir xustificacións necesarias. O README raíz, o índice de `docs/` e
+os materiais comúns de `modulo/` non computan.
 A síntese de ata dúas páxinas en PDF estará no repositorio e será o único
 documento do proxecto que o alumnado entrega impreso.
 

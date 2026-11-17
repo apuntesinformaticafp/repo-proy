@@ -1,9 +1,10 @@
 # Instrucións técnicas do proxecto
 
 <!-- Completa este README coas instrucións reais do teu proxecto.
-O texto propio terá un máximo de 250 palabras, incluídas no máximo global
-de 1.500 xunto cos oito apartados de docs/. Os comandos executables
-non computan. Non dupliques a documentación de ../docs/.
+As 350 palabras son unha orientación, non un límite por arquivo. O texto
+propio suma ao máximo global de 3.000 palabras xunto cos oito apartados
+de docs/, cunha referencia orientativa conxunta de 2.000. Os comandos
+executables non computan. Non dupliques a documentación de ../docs/.
 As instrucións deben indicar que comandos se executan desde proyecto/
 e cales, de ser o caso, desde a raíz do repositorio. -->
 

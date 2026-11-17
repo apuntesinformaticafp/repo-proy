@@ -1,6 +1,6 @@
 # Validación, resultados e limitacións
 
-> **Instrucións · Máximo: 200 palabras**
+> **Instrucións · Extensión orientativa: 250 palabras**
 >
 > Mostra como comprobas a solución e que resultados obtiveches. Podes combinar
 > tests automáticos, probas manuais e probas con persoas usuarias segundo

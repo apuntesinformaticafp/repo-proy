@@ -36,19 +36,19 @@ modulo/
     hoja-consolidacion.md Modelo público en branco de consolidación
 docs/
   README.md               Índice, uso das instrucións e límites de extensión
-  01-contexto.md          150 palabras
-  02-alcance.md           150 palabras
-  03-diseno.md            250 palabras
-  04-recursos.md          150 palabras
-  05-planificacion.md     150 palabras
-  06-seguimento.md        100 palabras
-  07-validacion.md        200 palabras
-  08-conclusions.md       Balance e seguintes pasos: 100 palabras
+  01-contexto.md          Persoas, problema e alternativas
+  02-alcance.md           Alcance e evolución
+  03-diseno.md            Deseño e datos
+  04-recursos.md          Recursos e custos
+  05-planificacion.md     Plan de traballo
+  06-seguimento.md        Seguimento e cambios
+  07-validacion.md        Probas e resultados
+  08-conclusions.md       Balance e seguintes pasos
   sintese.md              Fonte do PDF de máximo dúas páxinas
   img/                   Fotografías/capturas JPG e gráficos SVG
   diagramas/             Fontes Mermaid cando non vaian no Markdown
 proyecto/
-  README.md               Instrucións técnicas: máximo 250 palabras
+  README.md               Instrucións técnicas
   src/                    Código fonte
   tests/                  Probas
   datos/                  Sementes ficticias e preparación do almacén
@@ -66,9 +66,15 @@ materiais docentes aplicada: a túa copia non substitúe as regras comúns.
 
 ## 3. Documentación curta e visual
 
-- Máximo **1.500 palabras** entre `proyecto/README.md` e os oito apartados
-  de `docs/`, cos límites do esquema anterior.
-- A síntese ten un máximo de dúas páxinas e non suma a esas 1.500 palabras.
+- Referencia orientativa de **2.000 palabras**, cun **máximo global de 3.000**
+  entre `proyecto/README.md` e os oito apartados de `docs/`. Reparte o espazo
+  segundo o proxecto: as orientacións por apartado non son límites nin mínimos.
+- O límite busca claridade e concisión: conserva decisións, evidencias e
+  instrucións útiles e elimina o que non achega valor. Non se trata de chegar
+  a unha cifra nin de recortar información necesaria. O índice de `docs/`
+  explica [como editar a documentación](../docs/README.md#editar-documentacion).
+- A síntese conserva o máximo de dúas páxinas en PDF e queda fóra do
+  cómputo de palabras.
 - Markdown para textos; JPG para fotografías e capturas; SVG para diagramas
   e infografías. Os diagramas Mermaid conservarán a fonte editable, nun
   bloque Markdown ou nun arquivo `.mmd`. Non se esixe SVG duplicado se se

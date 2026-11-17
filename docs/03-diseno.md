@@ -1,6 +1,6 @@
 # Deseño técnico e almacenamento de datos
 
-> **Instrucións · Máximo: 250 palabras**
+> **Instrucións · Extensión orientativa: 350 palabras**
 >
 > Explica como se reparte o traballo entre as interfaces, a lóxica da
 > aplicación e o almacén de datos. Apoia a explicación con diagramas cando

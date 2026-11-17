@@ -1,6 +1,6 @@
 # Recursos, custos e condicionantes
 
-> **Instrucións · Máximo: 150 palabras**
+> **Instrucións · Extensión orientativa: 200 palabras**
 >
 > Conta con diñeiro, horas e apoios, non só co prezo das ferramentas.
 >
