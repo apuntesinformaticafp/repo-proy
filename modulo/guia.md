@@ -35,6 +35,7 @@ modulo/
     hoja-individual.md    Modelo público en branco para cada membro do tribunal
     hoja-consolidacion.md Modelo público en branco de consolidación
 docs/
+  README.md               Índice, uso das instrucións e límites de extensión
   01-contexto.md          150 palabras
   02-alcance.md           150 palabras
   03-diseno.md            250 palabras
@@ -42,7 +43,7 @@ docs/
   05-planificacion.md     150 palabras
   06-seguimento.md        100 palabras
   07-validacion.md        200 palabras
-  08-conclusions.md       100 palabras
+  08-conclusions.md       Balance e seguintes pasos: 100 palabras
   sintese.md              Fonte do PDF de máximo dúas páxinas
   img/                   Fotografías/capturas JPG e gráficos SVG
   diagramas/             Fontes Mermaid cando non vaian no Markdown
@@ -58,7 +59,7 @@ Retira os `.gitkeep` cando engadas contido. Podes adaptar a estrutura á
 tecnoloxía elixida se o explicas en `proyecto/README.md`: unha disposición
 equivalente e comprensible non se penaliza.
 
-O README raíz e `modulo/` non computan no límite de palabras. As rutas desta
+O README raíz, `docs/README.md` e `modulo/` non computan no límite de palabras. As rutas desta
 guía parten da raíz do repositorio; cada comando técnico debe indicar o
 directorio desde o que se executa. Identifica na entrega a versión dos
 materiais docentes aplicada: a túa copia non substitúe as regras comúns.
@@ -72,9 +73,14 @@ materiais docentes aplicada: a túa copia non substitúe as regras comúns.
   e infografías. Os diagramas Mermaid conservarán a fonte editable, nun
   bloque Markdown ou nun arquivo `.mmd`. Non se esixe SVG duplicado se se
   visualizan correctamente.
-- As preguntas orientadoras de `docs/` están en comentarios Markdown.
-  Consúltaas no editor ou na vista de código e retíraas ao completar o
-  apartado. As instrucións herdadas non computan.
+- Os apartados de `docs/` comezan con instrucións e exemplos visibles.
+  Escribe a resposta en **Desenvolvemento** ou na ficha de alcance e retira
+  as indicacións ao completar o apartado. As instrucións, os exemplos, os
+  títulos e os campos herdados non computan; o texto propio das respostas si.
+  Consulta o [índice de documentación](../docs/README.md).
+- As preguntas orientan decisións profesionais, non esixen unha resposta
+  separada por pregunta. Os exemplos mostran accións posibles, non respostas
+  para copiar nin requisitos adicionais.
 - O texto de táboas computa. Imaxes, diagramas, código, datos ficticios e
   comandos executables non computan. Non se usará prosa incrustada neles
   nin anexos para eludir os límites.

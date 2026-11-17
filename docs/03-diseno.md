@@ -1,10 +1,24 @@
 # Deseño técnico e almacenamento de datos
 
-<!-- Máximo 250 palabras. R2.
+> **Instrucións · Máximo: 250 palabras**
+>
+> Explica como se reparte o traballo entre as interfaces, a lóxica da
+> aplicación e o almacén de datos. Apoia a explicación con diagramas cando
+> axuden a entendela.
+>
+> - ¿Que compoñentes ou capas hai e de que se encarga cada un?
+> - ¿Por onde entra unha operación, que lóxica a resolve e como volve o resultado?
+> - ¿Onde se gardan os datos, como se organizan e como se accede a eles?
+> - ¿Por que escolliches este deseño e que alternativa relevante descartaches?
+> - ¿Como evitas os erros de datos e os problemas de seguridade, uso ou
+>   accesibilidade que afectan ao teu alcance?
+>
+> Distingue o deseñado, o implementado e o simulado. Recomendamos **Mermaid**:
+> os diagramas son texto, poden revisarse no historial e visualízanse en
+> GitHub. Podes integralos no Markdown ou gardar a fonte en `diagramas/`;
+> non é unha ferramenta obrigatoria.
+>
+> **Exemplo de acción:** escolle unha operación e representa en Mermaid o
+> percorrido desde a interface ata a lóxica, o almacén de datos e a resposta.
 
-¿Que compoñentes hai e como se relacionan? Apoia a explicación con diagramas.
-¿Onde se almacenan os datos, como se estruturan e como se accede a eles?
-Segue un percorrido desde a entrada ata a persistencia e a consulta.
-¿Que decisións e alternativas son relevantes?
-¿Que aspectos de integridade, seguridade, usabilidade e accesibilidade corresponde controlar? Distingue deseñado, implementado e simulado.
-Retira estas indicacións ao completar o apartado. -->
+## Desenvolvemento

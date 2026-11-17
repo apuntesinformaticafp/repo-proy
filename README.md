@@ -6,7 +6,7 @@ Plantilla para o proxecto individual de DAM, curso 2026–2027.
 
 | Área                              | Contido                                                       |
 | --------------------------------- | ------------------------------------------------------------- |
-| [`docs/`](docs/)                  | Documentación do proxecto, síntese, imaxes e diagramas        |
+| [`docs/`](docs/README.md)         | Documentación do proxecto, síntese, imaxes e diagramas        |
 | [`modulo/`](modulo/README.md)     | Programación, rúbrica, guía, calendario e modelos do tribunal |
 | [`proyecto/`](proyecto/README.md) | Instrucións técnicas, código fonte, probas e datos ficticios  |
 
@@ -23,11 +23,11 @@ Non subas entregas nin datos persoais ao repositorio público docente.
 
 ## Na túa copia privada
 
-Mantén este README como entrada ás tres áreas. Completa `docs/` coa
-documentación e `proyecto/` coa implementación. As instrucións de preparación,
+Mantén este README como entrada ás tres áreas. Usa o [índice de `docs/`](docs/README.md)
+para completar a documentación e `proyecto/` para a implementación. As instrucións de preparación,
 construción, execución e comprobación escríbense en
 [`proyecto/README.md`](proyecto/README.md).
 
 O texto propio dese README técnico terá un máximo de **250 palabras**,
 incluídas no máximo global de **1.500** xunto cos oito apartados de `docs/`.
-Este índice e os materiais comúns de `modulo/` non computan.
+Este índice, `docs/README.md` e os materiais comúns de `modulo/` non computan.

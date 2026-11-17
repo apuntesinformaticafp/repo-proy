@@ -1,10 +1,19 @@
 # Contexto, necesidade e alternativas
 
-<!-- Máximo 150 palabras. R1.
-¿Que problema queres resolver?
-¿Que empresas tipo hai no sector e como se organizan as funcións relevantes?
-¿Que necesidade e destinatarios concretos identificaches?
-¿Que demanda ou oportunidade xustifica o proxecto?
-¿Que alternativas consideraches e en que fontes te apoias?
-Podes empregar unha táboa breve con referencias. Sen datos persoais.
-Retira estas indicacións ao completar o apartado. -->
+> **Instrucións · Máximo: 150 palabras**
+>
+> Comeza polas persoas e polo problema, non pola tecnoloxía.
+>
+> - ¿Que problema concreto resolves e para quen?
+> - ¿Como o resolven hoxe, en que tipo de organización ou negocio e quen
+>   intervén no proceso?
+> - ¿Que mellora ou oportunidade achega a túa solución?
+> - ¿Que alternativas existen e en que información te apoias para escoller?
+>
+> Identifica funcións e responsabilidades sen incluír datos persoais. Usa
+> fontes ou observacións pertinentes, tamén nun contexto simulado.
+>
+> **Exemplo de acción:** debuxa o proceso actual, sinala onde aparece o
+> problema e identifica quen se beneficiaría de resolvelo.
+
+## Desenvolvemento

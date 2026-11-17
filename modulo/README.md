@@ -26,7 +26,7 @@ segundo o [calendario](calendario.md).
 | Como rexistrará cada docente a súa valoración       | [Folla individual do tribunal](tribunal/hoja-individual.md)          |
 | Como se consolidan as tres valoracións              | [Folla de consolidación](tribunal/hoja-consolidacion.md)             |
 
-Para traballar no proxecto, consulta a [documentación en `docs/`](../docs/)
+Para traballar no proxecto, consulta o [índice de documentación](../docs/README.md)
 e as [instrucións técnicas de `proyecto/`](../proyecto/README.md).
 
 A mesma rúbrica guía o desenvolvemento, a autoavaliación e a corrección.

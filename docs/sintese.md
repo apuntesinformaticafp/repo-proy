@@ -1,11 +1,28 @@
 # Síntese do proxecto
 
-<!-- P1: fonte para docs/sintese.pdf. Máximo dúas páxinas no PDF.
-Non suma ao límite de 1.500 palabras.
-Identifica o proxecto cun título ou código non persoal e referencia a versión.
-Selecciona o esencial: necesidade e obxectivo; solución e decisións;
-actividades, planificación e control; resultados, límites e conclusións;
-melloras xustificadas. Non crees unha memoria adicional.
-Exporta a PDF, comproba páxinas, formato, enlaces e ausencia de datos
-persoais, e entrega impresa esa mesma versión.
-Retira estas indicacións ao completar o documento. -->
+> **Instrucións · PDF de máximo dúas páxinas**
+>
+> Selecciona o esencial da documentación para que o tribunal entenda a entrega.
+> Non escribas unha memoria nova nin dupliques todos os apartados.
+>
+> - ¿Que problema abordaches, para quen e con que obxectivo?
+> - ¿Que solución adoptaches, que traballo realizaches e que decisións de
+>   deseño, planificación e seguimento explican o resultado?
+> - ¿Que resultados comprobaches, que límites teñen e que conclúes sobre
+>   a necesidade inicial?
+> - ¿Que mellorarías a continuación e por que?
+>
+> Identifica o proxecto cun título ou código non persoal e referencia a
+> versión entregada do repositorio e as evidencias relevantes. A síntese
+> ten puntuación propia en **P1**, pola súa claridade e selección do esencial,
+> sen repetir a nota técnica. Non suma ao límite de 1.500 palabras.
+>
+> Antes de exportar, retira estas instrucións. Garda o resultado como
+> `sintese.pdf`, comproba as dúas páxinas, a lectura, as referencias e a
+> ausencia de datos persoais. Entrega impresa esa mesma versión: é o único
+> documento do proxecto que se pide en papel.
+>
+> **Exemplo de acción:** revisa cada afirmación sobre resultados e localiza
+> a evidencia que a apoia; elimina ou matiza o que non poidas comprobar.
+
+## Síntese para a entrega
