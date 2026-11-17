@@ -1,0 +1,45 @@
+# Segredos e configuración local. Os exemplos non conterán valores reais.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Dependencias e contornos locais; conservar manifests e lockfiles.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Saídas xeradas. Revisar as convencións específicas de cada tecnoloxía.
+/bin/
+/build/
+/dist/
+/target/
+**/bin/
+**/obj/
+.gradle/
+*.class
+*.jar
+*.war
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Datos locais de execución e rexistros, non sementes ficticias.
+/datos/local/
+/logs/
+/coverage/
+*.log
+
+# Ficheiros do editor e do sistema.
+.DS_Store
+*~
+*.swp
